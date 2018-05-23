@@ -91,6 +91,9 @@
     取得其它用户发布的新特性分支，并签出远程的变更
     
 ```
+    ➜  git-flow git:(develop) git flow feature pull origin myfeature
+    The command 'git flow feature pull' will be deprecated per version 2.0.0. Use 'git flow feature track' instead.
+    Created local branch feature/myfeature based on origin's feature/myfeature.
 
 ```    
     
