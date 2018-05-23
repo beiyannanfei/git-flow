@@ -98,4 +98,21 @@
 ```    
 
 开始准备release版本
+
+```
+    ➜  git-flow git:(develop) git flow release start release 
+    Switched to a new branch 'release/release'
+    
+    Summary of actions:
+    - A new branch 'release/release' was created, based on 'develop'
+    - You are now on branch 'release/release'
+    
+    Follow-up actions:
+    - Bump the version number now!
+    - Start committing last-minute fixes in preparing your release
+    - When done, run:
+    
+         git flow release finish 'release'
+
+```
     
