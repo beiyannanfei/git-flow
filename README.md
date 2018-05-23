@@ -65,5 +65,35 @@
 
 ```
     
+    如果需要合作开发一个新功能，可以将新分支发布到远端
     
+```
+    ➜  git-flow git:(feature/myfeature) git flow feature publish myfeature
+    Counting objects: 3, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+    Total 3 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+    To github.com:beiyannanfei/git-flow.git
+     * [new branch]      feature/myfeature -> feature/myfeature
+    Branch 'feature/myfeature' set up to track remote branch 'feature/myfeature' from 'origin'.
+    Already on 'feature/myfeature'
+    Your branch is up to date with 'origin/feature/myfeature'.
+    
+    Summary of actions:
+    - The remote branch 'feature/myfeature' was created or updated
+    - The local branch 'feature/myfeature' was configured to track the remote branch
+    - You are now on branch 'feature/myfeature'
+
+```    
+
+    取得其它用户发布的新特性分支，并签出远程的变更
+    
+```
+    ➜  git-flow git:(develop) git flow feature pull origin myfeature
+    The command 'git flow feature pull' will be deprecated per version 2.0.0. Use 'git flow feature track' instead.
+    Created local branch feature/myfeature based on origin's feature/myfeature.
+
+```    
     
