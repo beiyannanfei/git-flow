@@ -47,7 +47,23 @@
     
     修改完成后执行 git flow feature finish myfeature 后会将 feature/myfeature 分支合并到 develop 分支，
     并删除 feature/myfeature 分支，最后切换回 develop 分支.
-         
+
+```
+    ➜  git-flow git:(feature/myfeature) git flow feature finish myfeature
+    Switched to branch 'develop'
+    Your branch is up to date with 'origin/develop'.
+    Updating 6c4fced..7aa50b4
+    Fast-forward
+     README.md | 18 ++++++++++++++++++
+     1 file changed, 18 insertions(+)
+    Deleted branch feature/myfeature (was 7aa50b4).
+    
+    Summary of actions:
+    - The feature branch 'feature/myfeature' was merged into 'develop'
+    - Feature branch 'feature/myfeature' has been locally deleted
+    - You are now on branch 'develop'
+
+```         
     
     
     
