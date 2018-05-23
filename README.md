@@ -1,6 +1,6 @@
 # git-flow
 
-1. 首先执行初始化(注意: 保证本地没有未提交的修改，否则报错)
+    1. 首先执行初始化(注意: 保证本地没有未提交的修改，否则报错)
     
 ```
     ➜  git-flow git:(develop) git flow init
@@ -26,5 +26,10 @@
     Hooks and filters directory? [/Users/wyq/bynf/git-flow/.git/hooks] 
 
 ```
+
+    2. 开发新功能(基于develop分支)
+    
+         
+    
     
     
