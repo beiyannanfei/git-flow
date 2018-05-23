@@ -87,4 +87,10 @@
     - You are now on branch 'feature/myfeature'
 
 ```    
+
+    取得其它用户发布的新特性分支，并签出远程的变更
+    
+```
+
+```    
     
