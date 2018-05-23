@@ -29,6 +29,24 @@
 
     2. 开发新功能(基于develop分支)
     
+```
+    ➜  git-flow git:(develop) git flow feature start myfeature
+    Switched to a new branch 'feature/myfeature'
+    
+    Summary of actions:
+    - A new branch 'feature/myfeature' was created, based on 'develop'
+    - You are now on branch 'feature/myfeature'
+    
+    Now, start committing on your feature. When done, use:
+    
+         git flow feature finish myfeature
+
+```
+    执行 git flow feature start myfeature 后会创建一个 feature/myfeature 的分支，并切换到该分支
+    之后便可以在这个分支做相应修改。
+    
+    修改完成后执行 git flow feature finish myfeature 后会将 feature/myfeature 分支合并到 develop 分支，
+    并删除 feature/myfeature 分支，最后切换回 develop 分支.
          
     
     
