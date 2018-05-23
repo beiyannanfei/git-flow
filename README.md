@@ -63,7 +63,7 @@
     - Feature branch 'feature/myfeature' has been locally deleted
     - You are now on branch 'develop'
 
-```         
+```
     
     
     
